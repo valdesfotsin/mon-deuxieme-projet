@@ -1,0 +1,67 @@
+#title{
+    text-align: center;
+    font-family: "Segoe UI";
+  }
+  #description{
+    text-align: center;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 20px;
+  }
+  body{
+      color:white;
+    background-image: linear-gradient(rgba(41, 40, 21, 0.6),rgba(46, 40, 21, 0.6)), url('image/fondecran2.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     }
+     #container{
+         background-color: #080644;
+         margin: 60px 400px 0px 400px;
+        display: flex;
+        justify-content: center;
+        font-family: "Segoe UI";
+        font-size: 25px;
+        padding-top: 50px;
+        opacity: 0.8;
+
+        
+     }
+     #name,#email,#age,#role,#favorite{
+         width: 600px;
+         height: 40px;
+         border-radius: 6px;
+     }
+     input,select{
+       font-family:"Segoe UI";
+       font-size: 20px;
+       
+       
+     }
+     #value1,#value2,#value3,#value4,#value5,#value6,#value7,#value8,#value9,#value10,#value11{
+       width: 25px;
+     }
+     textarea{
+      width: 600px;
+      height: 100px;
+      border-radius: 6px;
+      font-family:"Segoe UI";
+       font-size: 20px;
+
+     }
+
+     button{
+      width: 650px;
+      border-radius: 6px;
+      background-color: #26bc50;
+      color: white;
+      font-family: "Segoe UI";
+      padding:15px 0px 15px 0px;
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 50px;
+      
+
+     }
